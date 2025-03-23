@@ -180,11 +180,7 @@ There's another pattern to the solution that has the same effect documented belo
 
 ## `Routes` Solution References
 
-### (1️⃣) 🏠 Go to [https://pjnalls.github.io/about](https://pjnalls.github.io/about) for a live example of the solution.
-
-### (2️⃣) 🧮 Go to [https://github.com/pjnalls/pjnalls.github.io](https://github.com/pjnalls/pjnalls.github.io) for the example code of the solution.
-
-### (4️⃣) 🌐 See `~/src/main.tsx` below for basic web app instantiation reference:
+### 🌐 See `~/src/main.tsx` below for basic web app instantiation reference:
 
 ```tsx
 import React from "react";
