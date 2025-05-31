@@ -64,11 +64,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ## `router` Solution References
 
-### (1️⃣) 🏠 Go to [https://problemesolvers.github.io/about](https://problemesolvers.github.io/about) for a live example of the solution.
 
-### (2️⃣) 🧮 Go to [https://github.com/problemesolvers/problemesolvers.github.io](https://github.com/problemesolvers/problemesolvers.github.io) for the example code of the solution.
-
-### (3️⃣) 🚏 See `~/src/router.jsx` below for basic React Router reference:
+### **Step** 1️⃣, Create a `~/src/router.jsx` file and add code:
 
 ```jsx
 import { createBrowserRouter } from "react-router-dom";
@@ -94,7 +91,7 @@ export const router = createBrowserRouter([
 ]);
 ```
 
-### (4️⃣) 🌐 See `~/src/main.jsx` below for basic web app instantiation reference:
+### **Step** 2️⃣, Add the following code to `~/src/main.jsx` below for basic web app instantiation reference:
 
 ```jsx
 import React from "react";
@@ -150,7 +147,7 @@ There's another pattern to the solution that has the same effect documented belo
 })();
 ```
 
-### \*\*Step 3️⃣, ensure `Routes` have been added correctly in `App`:
+### Step 3️⃣, ensure `Routes` have been added correctly in `App`:
 
 ```tsx
 <AppShell.Main>
